@@ -1,0 +1,24 @@
+html {
+    background-color: #181a1b;
+}
+
+img {
+    margin: auto;
+    display: block;
+    width: 40%;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    height: 800px;
+}
+
+p {
+    font-family: 'Public Sans', sans-serif;
+    vertical-align: middle;
+    line-height: 800px;
+    position: absolute;
+    margin-top: 110px;
+    color:white;
+}

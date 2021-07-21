@@ -1,0 +1,51 @@
+<head>
+    <title>TAUPE GUN TWITTOS 3</title>
+    <link href="index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@700&display=swap" rel="stylesheet"> 
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#1da1f2">
+    <meta property="og:site_name" content="TAUPE GUN TWITTOS">
+    <meta property="og:title" content="TAUPE GUN TWITTOS 3">
+    <meta property="og:description" content="Site officiel du Taupe Gun Twittos 3.">
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/314488286489870337/867185282768306196/taupe_gun_twittos_banniere.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="TAUPE GUN TWITTOS 3">
+    <meta name="twitter:description" content="Site officiel du Taupe Gun Twittos 3.">
+    <meta name="twitter:image" content="https://cdn.discordapp.com/attachments/314488286489870337/867185282768306196/taupe_gun_twittos_banniere.png">
+
+    <!--flygoow a fait ce putain de site-->
+    <!--au passage y'a rien dans le code mdrrr twitch.tv/flygoow j'en profite-->
+</head>
+<body>
+    <div id="countdown">
+        <img src="img/Taupe Gun Twittos logo rectangle sans bord.png" >
+        <p id="demo"></p>
+    </div>
+    <script>
+        var countDownDate = new Date("Aug 27, 2021 21:00:00").getTime();
+        
+        var x = setInterval(function() {
+        
+          var now = new Date().getTime();
+        
+          var distance = countDownDate - now;
+        
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+          document.getElementById("demo").innerHTML = days + " jours " + hours + " heures "
+          + minutes + " minutes et " + seconds + " secondes. ";
+        
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "Que le Taupe Gun commence";
+          }
+        }, 1000);
+        </script>
+    <!--01100011 01101111 01101110 01101110 01100001 01110010 01100100-->
+</body>
+
